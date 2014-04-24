@@ -1,6 +1,8 @@
-## makeCacheMatrix creates a matrix which is a list containing a function to:
-## set value of the matrix, get value of the matrix
-## set the inverse of the matrix, get the inverse of the matrix
+## makeCacheMatrix creates a list containing a function to:
+## set value of the matrix 
+## get value of the matrix
+## set the inverse of the matrix
+## get the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
